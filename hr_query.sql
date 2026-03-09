@@ -26,8 +26,11 @@ e.last_name,
 e.job_title,
 e.salary,
 d.Department_Name,
+d.Department_Budget,
+d.Department_Goals,
 pa.project_id,
 p.project_name,
+p.project_budget,
 p.status
 FROM employees e
 JOIN departments d 
